@@ -10540,7 +10540,8 @@ section.front {
     text-align: left;
     font-size: 16px; }
   section.front.team .biography {
-    font-size: 16px; }
+    font-size: 16px;
+    margin: 15px 0; }
 
 .avatar {
   width: 100px; }
