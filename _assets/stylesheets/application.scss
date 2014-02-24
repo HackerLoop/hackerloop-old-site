@@ -4,84 +4,183 @@
 @import "flat-ui";
 
 body {
-  @extend .container;
-  color: #2b2b2b;
-  // This should be adjusted in flatui
-  font-family: "proxima-nova" sans-serif !important;
+    color: #2b2b2b;
+    // This should be adjusted in flatui
+    font-family: "proxima-nova" sans-serif !important;
 }
 
 main {
-  @extend .row;
-  padding: 30px 0 30px;
+    @extend .row;
+    padding: 30px 0 30px;
 }
 
 .content {
+    @extend .container;
 }
 
 section.front {
-  @extend .row;
-
-  margin: 0 0 60px 0;
-
-  text-align: center;
-
-  &.hackerloop {
-    h1 {
-      font-size: 90px;
-      font-weight: 900;
-      letter-spacing: -2px;
-      line-height: 100px;
-      margin-bottom: 10px;
-    }
-
-    h2 {
-      color: hsla(210, 29%, 29%, 0.298039);
-      font-size: 22px;
-      font-weight: 600;
-      margin-top: 0;
-    }
-
-    img {
-      height: 256px;
-      width: 256px;
-    }
-  }
-
-  &.project {
-      .wrapper {
-          @extend .col-md-6;
-          @extend .col-md-offset-3;
-
-      }
-    img {
-      margin-bottom: 30px;
-    }
-
-    .headline {
-      font-size: 22px;
-      margin-bottom: 60px;
-    }
-
-    .description {
-      text-align: left;
-      font-size: 16px;
-    }
-  }
-
-  &.team {
     @extend .row;
 
-    .member {
-      @extend .col-md-4;
+    margin: 0 0 60px 0;
+
+    text-align: center;
+
+    &.hackerloop {
+        h1 {
+            font-size: 90px;
+            font-weight: 900;
+            letter-spacing: -2px;
+            line-height: 100px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: hsla(210, 29%, 29%, 0.298039);
+            font-size: 22px;
+            font-weight: 600;
+            margin-top: 0;
+        }
+
+        img {
+            height: 256px;
+            width: 256px;
+        }
     }
 
-    .biography {
-        font-size: 16px;
+    &.project {
+        .wrapper {
+            @extend .col-md-6;
+            @extend .col-md-offset-3;
+
+        }
+        img {
+            margin-bottom: 30px;
+        }
+
+        .headline {
+            font-size: 22px;
+            margin-bottom: 60px;
+        }
+
+        .description {
+            text-align: left;
+            font-size: 16px;
+        }
     }
-  }
+
+    &.team {
+        @extend .row;
+
+        .member {
+            @extend .col-md-4;
+        }
+
+        .biography {
+            font-size: 16px;
+        }
+    }
 }
 
 .avatar {
     @extend .img-circle;
     width: 100px;
+}
+
+.entry-header {
+    width: 100%;
+    overflow: hidden;
+    max-height: 300px;
+    box-sizing: border-box;
+
+    .entry-image {
+        position: relative;
+        width: auto;
+        height: 100%;
+        max-height: 300px;
+        box-sizing: border-box;
+
+        &:after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content:''
+        }
+
+        img {
+            box-sizing: border-box;
+            width: 100%;
+        }
+    }
+
+    header {
+        position: absolute;
+        top: 0;
+        display: table;
+        width: 100%;
+        height: 300px;
+        margin-top: 0;
+        overflow: hidden;
+
+        .header-title {
+            padding: 0 20px;
+            margin: 30px 0 0;
+            text-align: center;
+            display: table-cell;
+            margin: 0 auto;
+            text-align: center;
+            vertical-align: middle;
+
+            color: #fff;
+        }
+
+        .header-title-wrap {
+        }
+
+        h1 {
+            font-size: 6.25rem;
+            margin: 10px 60px;
+            font-weight: 700;
+            text-shadow: 1px 1px 4px rgba(34,34,34,0.6);
+        }
+        h2 {
+            font-size: 1.875rem;
+            margin: 10px 60px;
+            font-weight: 700;
+            text-shadow: 1px 1px 4px rgba(34,34,34,0.6);
+        }
+    }
+}
+
+.header-logo {
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    z-index: 9000;
+    max-width: 48px;
+
+    img{
+        height: auto;
+        max-width: 100%;
+     }
+}
+
+article {
+    @extend .col-md-6;
+    @extend .col-md-offset-3;
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    blockquote {
+        border-left: 8px solid #bbb;
+        font-family: serif;
+        font-style: italic;
+    }
 }
