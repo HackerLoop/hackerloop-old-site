@@ -3,11 +3,11 @@
 @import "bootstrap";
 @import "flat-ui";
 
-body { 
+body {
   @extend .container;
   color: #2b2b2b;
   // This should be adjusted in flatui
-  font-family: "proxima-nova" sans-serif;
+  font-family: "proxima-nova" sans-serif !important;
 }
 
 main {
@@ -16,19 +16,17 @@ main {
 }
 
 .content {
-  @extend .col-md-6;
-  @extend .col-md-offset-3;
 }
 
-section {
+section.front {
   @extend .row;
 
-  margin: 0 0 60px;
+  margin: 0 0 60px 0;
 
   text-align: center;
 
   &.hackerloop {
-    h1 { 
+    h1 {
       font-size: 90px;
       font-weight: 900;
       letter-spacing: -2px;
@@ -39,6 +37,7 @@ section {
     h2 {
       color: hsla(210, 29%, 29%, 0.298039);
       font-size: 22px;
+      font-weight: 600;
       margin-top: 0;
     }
 
@@ -49,23 +48,40 @@ section {
   }
 
   &.project {
+      .wrapper {
+          @extend .col-md-6;
+          @extend .col-md-offset-3;
+
+      }
     img {
       margin-bottom: 30px;
     }
 
-    .description { 
+    .headline {
       font-size: 22px;
+      margin-bottom: 60px;
+    }
+
+    .description {
+      text-align: left;
+      font-size: 16px;
     }
   }
 
   &.team {
     @extend .row;
+
     .member {
       @extend .col-md-4;
-      img.avatar { 
-        @extend .img-circle;
-        width: 100px;
-      }
+    }
+
+    .biography {
+        font-size: 16px;
     }
   }
+}
+
+.avatar {
+    @extend .img-circle;
+    width: 100px;
 }
