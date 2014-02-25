@@ -3,6 +3,12 @@
 @import "bootstrap";
 @import "flat-ui";
 
+//fix
+.row, main, section.front, section.front.team {
+    margin-left: 0;
+    margin-right: 0; 
+}
+
 body {
     color: #2b2b2b;
     // This should be adjusted in flatui
