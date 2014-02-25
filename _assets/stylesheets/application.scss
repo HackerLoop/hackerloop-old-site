@@ -185,3 +185,27 @@ article {
         font-style: italic;
     }
 }
+
+footer {
+    $fs: 14px;
+    font-size: $fs;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+    
+    p {
+        font-size: $fs;
+        margin: 0;
+    }
+    
+    ul {
+        padding: 0;
+        margin: 0;
+        li {
+            display: inline;
+        }
+        li + li::before {
+            content: " | ";
+        }
+    }
+}
