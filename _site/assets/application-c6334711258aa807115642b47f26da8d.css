@@ -10613,3 +10613,19 @@ article blockquote {
   border-left: 8px solid #bbb;
   font-family: serif;
   font-style: italic; }
+
+footer {
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  padding: 15px 0; }
+  footer p {
+    font-size: 14px;
+    margin: 0; }
+  footer ul {
+    padding: 0;
+    margin: 0; }
+    footer ul li {
+      display: inline; }
+    footer ul li + li::before {
+      content: " | "; }
