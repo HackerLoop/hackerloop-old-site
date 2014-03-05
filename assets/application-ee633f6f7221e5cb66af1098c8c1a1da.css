@@ -1962,8 +1962,8 @@ input[type="button"].btn-block {
 
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(/assets/bootstrap/glyphicons-halflings-regular-b348a3b771d3ff9c04b655240c9e3623.eot);
-  src: url(/assets/bootstrap/glyphicons-halflings-regular-b348a3b771d3ff9c04b655240c9e3623.eot?#iefix) format("embedded-opentype"), url(/assets/bootstrap/glyphicons-halflings-regular-33b17355fa2e85a063991da2dd1734e7.woff) format("woff"), url(/assets/bootstrap/glyphicons-halflings-regular-1495cf6d2ffac94ec4c0f25759c666cb.ttf) format("truetype"), url(/assets/bootstrap/glyphicons-halflings-regular-038747095776a766383e35265604dea7.svg#glyphicons_halflingsregular) format("svg"); }
+  src: url(/assets/bootstrap/glyphicons-halflings-regular-e5500c6739cd9ccca4a9a3421880bbe2.eot);
+  src: url(/assets/bootstrap/glyphicons-halflings-regular-e5500c6739cd9ccca4a9a3421880bbe2.eot?#iefix) format("embedded-opentype"), url(/assets/bootstrap/glyphicons-halflings-regular-f38918ca6fe713e5c23754d4af9000ac.woff) format("woff"), url(/assets/bootstrap/glyphicons-halflings-regular-b21dd8ca656f9e432f6b9f46b0acc289.ttf) format("truetype"), url(/assets/bootstrap/glyphicons-halflings-regular-dc3b90cd7a242ebf764065eb8082989c.svg#glyphicons_halflingsregular) format("svg"); }
 .glyphicon {
   position: relative;
   top: 1px;
@@ -10507,6 +10507,10 @@ a.list-group-item.active > .badge,
 .mal {
   margin-left: 20px; }
 
+.row, main, section.front, section.front.team, main, section.front, section.front.team {
+  margin-left: 0;
+  margin-right: 0; }
+
 body {
   color: #2b2b2b;
   font-family: "proxima-nova" sans-serif !important; }
@@ -10545,6 +10549,14 @@ section.front {
 
 .avatar {
   width: 100px; }
+
+.small.avatar {
+  width: 48px;
+  margin: 20px 0; }
+
+.post .title {
+  vertical-align: middle;
+  display: inline; }
 
 .entry-header {
   width: 100%;
