@@ -92,6 +92,21 @@ section.front {
     @extend .img-circle;
     width: 100px;
 }
+.small.avatar {
+    width: 48px;
+    margin: 20px 0;
+}
+
+.post {
+    .title {
+        vertical-align: middle;
+        display: inline;
+        margin: 0 10px;
+    }
+    .date {
+        font-weight: bold;
+    }
+}
 
 .entry-header {
     width: 100%;
