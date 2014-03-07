@@ -9,18 +9,18 @@ Programmers, developers, hackers, engineers... So many different terms the layma
 
 Definitions may tend to be subjective and personal. The term "hacker" is a famous example for [having a definition that varies among different circles as well as the wide public](https://en.wikipedia.org/wiki/Hacker_\(programmer_subculture\)#Definition). 
 
-My objective here is not so much to give rigid definitions of those terms. I want instead to describe different tendancies in order to, I hope, help technical people (whatever their title), leaders and managers indifferently find their best fit.
+The objective here is not so much to give rigid definitions of those terms. It is instead to describe different tendancies in order to, hopefully, help technical people (whatever their title), leaders and managers indifferently find their best fit.
 
 
 #### Programmers
 
 *Programmer* defines anyone who writes computer software. At its core, it consists of translating human thought into a language the machine can understand.
 
-As you may know, there are thousands of programming languages. They differ in many ways, the most important being their purpose. For example, [SQL](https://en.wikipedia.org/wiki/SQL) specializes in querying databases, [R](http://www.r-project.org/) in statistics, while [Ruby](https://www.ruby-lang.org/) excels in web development.
+As commonly known, there are thousands of programming languages. They differ in many ways, the most important being their purpose. For example, [SQL](https://en.wikipedia.org/wiki/SQL) specializes in querying databases, [R](http://www.r-project.org/) in statistics, while [Ruby](https://www.ruby-lang.org/) excels in web development.
 
-As you can imagine, there is a wide range of programmers, different by their language, not to mention their level of expertise.
+As a result, there is a wide range of programmers, different by their language, not to mention their level of expertise.
 
-To become a programmer, you need to learn one (of the many) machine language(s). If you want to do anything related with computers, the first mandatory step is to learn to program, even a bit (pun intended).   
+To do anything related with computers, the first mandatory step is to learn to program, even a bit (pun intended).   
 
 
 #### Hackers
@@ -31,12 +31,12 @@ Note that the term *hacker* is sometimes erroneously used to designate people wh
 
 Hackers are good in startups and in art: when hypothesis are yet to be confirmed, when speed is crucial, and to explore new possibilities.
 
-And, yes, if you wondered, the creativity is the reason why we called ourselves the [Hackerloop](http://hackerloop.com/).
+And, yes, the creativity is the reason why we called ourselves the [Hackerloop](http://hackerloop.com/).
 
 
 #### Developers
 
-The *developer* is the hacker's rational twin. While there are some (debatable) differences between a *developer* and a *software engineer*, I will consider them similar in this article, for the sake of brevity.
+The *developer* is the hacker's rational twin. While there are some (debatable) differences between a *developer* and a *software engineer*, they will be considered similar in this article, for the sake of brevity.
 
 The developer/engineer has both micro and macro approaches: paying attention to details while keeping an eye on the big picture. Like the hacker, he has a deep technical knowledge. But he also cares about the architecture, the methods, and the processes. 
 
@@ -51,7 +51,7 @@ We at [Hackerloop](http://hackerloop.com/), believe in iteratively (hence the *l
 
 #### On titles and roles
 
-Now this being said, I would like to give a few points.
+Now this being said, here are a few points to be noted.
 
 First, a title is not the same as a role. This is true for degrees as well as company titles: someone might be officially called a programmer but might really deliver engineer-quality level work (or sadly, the other way around).
 
@@ -68,6 +68,6 @@ Leaders are not only concerned with the *how*, but also with the *why*. They und
 
 #### Finding the best fit
 
-I hope this brings some perspective. First for the technical people, to better understand the role you are the most confortable with and which projects would be a good fit for you. And for managers, leaders, and clients, to figure what role you are really trying to fill in.
+Hopefully this article brings some perspective. First for the technical people, to better understand the role they are the most confortable with and which projects would be a good fit. And for managers, leaders, and clients, to figure what role they are really trying to fill in.
 
 Now go make great things!
