@@ -4,6 +4,7 @@ pygments: false
 assets:
   sources:
     - _assets/images
+    - _assets/images/members
     - _assets/javascripts
     - _assets/stylesheets
     - _assets/fonts

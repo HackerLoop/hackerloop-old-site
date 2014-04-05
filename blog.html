@@ -1,0 +1,45 @@
+---
+layout: default
+title:
+---
+<header>
+</header>
+
+<main>
+    
+  <a class="header-logo" href="/">
+    <img src="{{ 'logo.png' | asset_path }}">
+  </a>
+  
+  <div class="content">
+    <section class="front hackerloop">
+      <h1>Blog</h1>
+    </section>
+    
+    <section class="excerpts">
+      {% for post in site.posts %}
+      
+        <div class="post">
+          {% for author in post.authors %}
+            <a href="/team.html#{{ author }}">
+              <img class="small avatar" src="{{ author | append: ".png" | asset_path }}" alt='{{author}}'></img>
+            </a>
+          {% endfor %}
+          
+          <a href="{{ post.url }}">
+            <h3 class="title">{{ post.title }}</h3>
+          </a>
+          
+          <div class="date">
+            {{ post.date | date: "%d %b %Y"}}
+          </div>
+          
+          {{ post.excerpt }}
+        </div>
+      {% endfor %}
+    </section>
+    
+  </div>
+      
+</main>
+{% include footer.html %}
