@@ -1,0 +1,3 @@
+- favorite books
+- favorite tools
+- favorite teachers

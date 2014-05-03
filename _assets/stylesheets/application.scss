@@ -98,6 +98,11 @@ section.front {
 }
 
 .post {
+    @extend .col-md-8;
+    @extend .col-md-offset-2;
+
+    @extend .col-sm-12;
+
     .title {
         vertical-align: middle;
         display: inline;
