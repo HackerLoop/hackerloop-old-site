@@ -1,6 +1,6 @@
 name: Hackerloop
 markdown: redcarpet
-pygments: false
+highlighter: false
 assets:
   sources:
     - _assets/images
