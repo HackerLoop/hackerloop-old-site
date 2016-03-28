@@ -9,16 +9,76 @@ title:
   <div class="content">
     <section class="front hackerloop">
       <img src="{{ 'hackerloop.png' | asset_path }}" alt="Hackerloop"></img>
-      <h1>Hackerloop</h1>
+      <div class="intro-text">
+          <!-- <span class="name">{{ site.title }}</span> -->
+          <div class="sentence">
+            <span id="presentence">
+            Hackerloop is a
+            </span>
+            <span id="postsentence">collective of
+            </span>
+            <div class="slidingVertical">
+              <span>engineers</span>
+              <span>tinkerers</span>
+              <span>hackers</span>
+              <span>makers</span>
+              <span>robots</span>
+            </div></span>
+          </div>
+      </div>
     </section>
 
     <section class="front project">
       <div class="wrapper">
         <p class="front headline">
-          Hackerloop is a collective of engineers searching for new uses of technology through original experiments. Open source software and open hardware are deeply rooted in their DNA and are at the core of their creations. Based in San Francisco, Prague and Paris, they thrive to build unexpected products that will make sense tomorrow.
+          We are a collective of talented engineers and product designers searching for new uses of technology through original experiments.
         </p>
-        <h3><a href="/upstagram">#upstagram</a></h3>
+        <p class="front headline">
+          We thrive to build high-quality products and creative hacks that make sense.
+        </p>
       </div>
+    </section>
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Hacks</h2>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="{{ post.url }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="{{ post.url }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="{{ post.url }}" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                    </div>
+            </div>
+        </div>
     </section>
 
   </div>

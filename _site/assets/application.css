@@ -11263,6 +11263,24 @@ section.front {
     font-size: 16px;
     margin: 15px 0; }
 
+.intro-text .sentence {
+  padding-right: 15%;
+  font-size: 2.5em;
+  font-weight: 700; }
+
+@media (max-width: 767px) {
+  .intro-text .sentence {
+    padding-right: 0px;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: left; }
+
+  #presentence {
+    text-align: center; }
+
+  #postsentence {
+    white-space: nowrap;
+    text-align: justify; } }
 .avatar {
   width: 100px; }
 
@@ -11360,3 +11378,77 @@ footer {
       display: inline; }
     footer ul li + li::before {
       content: " | "; }
+
+/* rotating text */
+/*Vertical Sliding*/
+.slidingVertical {
+  display: inline;
+  text-indent: 8px; }
+
+.slidingVertical span {
+  animation: topToBottom 12.5s linear infinite 0s;
+  -ms-animation: topToBottom 12.5s linear infinite 0s;
+  -webkit-animation: topToBottom 12.5s linear infinite 0s;
+  color: #000;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute; }
+
+.slidingVertical span:nth-child(2) {
+  animation-delay: 2.5s;
+  -ms-animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s; }
+
+.slidingVertical span:nth-child(3) {
+  animation-delay: 5s;
+  -ms-animation-delay: 5s;
+  -webkit-animation-delay: 5s; }
+
+.slidingVertical span:nth-child(4) {
+  animation-delay: 7.5s;
+  -ms-animation-delay: 7.5s;
+  -webkit-animation-delay: 7.5s; }
+
+.slidingVertical span:nth-child(5) {
+  animation-delay: 10s;
+  -ms-animation-delay: 10s;
+  -webkit-animation-delay: 10s; }
+
+/*topToBottom Animation*/
+@-webkit-keyframes topToBottom {
+  0% {
+    opacity: 0; }
+  5% {
+    opacity: 0;
+    -webkit-transform: translateY(-50px); }
+  10% {
+    opacity: 1;
+    -webkit-transform: translateY(0px); }
+  25% {
+    opacity: 1;
+    -webkit-transform: translateY(0px); }
+  30% {
+    opacity: 0;
+    -webkit-transform: translateY(50px); }
+  80% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+/*****************************************************************************/
+/*
+/* portfolio
+/*
+/*****************************************************************************/
+section {
+  padding: 100px 0; }
+
+section h2 {
+  margin: 0;
+  font-size: 3em; }
+
+@media (max-width: 767px) {
+  section {
+    padding: 75px 0; }
+
+  section.first {
+    padding-top: 75px; } }
