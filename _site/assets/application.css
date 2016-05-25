@@ -11439,16 +11439,12 @@ footer {
 /* portfolio
 /*
 /*****************************************************************************/
+.referral {
+  visibility: hidden; }
+
 section {
-  padding: 100px 0; }
+  padding: 20px 0; }
 
 section h2 {
   margin: 0;
   font-size: 3em; }
-
-@media (max-width: 767px) {
-  section {
-    padding: 75px 0; }
-
-  section.first {
-    padding-top: 75px; } }
