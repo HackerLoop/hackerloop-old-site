@@ -27,7 +27,7 @@ main {
 section.front {
     @extend .row;
 
-    margin: 0 0 60px 0;
+    margin: 0 0 0 0;
 
     text-align: center;
 
@@ -94,6 +94,7 @@ section.front {
   font-size: 2.5em;
   font-weight: 700;
 }
+
 @media(max-width:767px) {
   .intro-text .sentence {
     padding-right: 0px;
@@ -103,13 +104,34 @@ section.front {
   }
 
   #presentence {
-    text-align: center;
+
+    padding-left: 40px;
   }
 
   #postsentence {
     white-space: nowrap;
     text-align: justify;
 }}
+
+@media(max-width:991px) {
+  .intro-text .sentence {
+    padding-right: 0px;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: left;
+  }
+
+  #presentence {
+
+    padding-left: 20px;
+  }
+
+  #postsentence {
+    white-space: nowrap;
+    text-align: justify;
+}}
+
+
 
 .avatar {
     @extend .img-circle;
