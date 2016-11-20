@@ -3,6 +3,24 @@ layout: default
 title:
 ---
 <header>
+  <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1337535332947883',
+          xfbml      : true,
+          version    : 'v2.6'
+        });
+      };
+
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
 </header>
 
 <main>
@@ -25,6 +43,14 @@ title:
               <span>robots</span>
             </div></span>
           </div>
+      </div>
+      <div class="contact-us">
+        <div class="fb-messengermessageus"
+             messenger_app_id="1337535332947883"
+             page_id="Hackerlooplab"
+             color="blue"
+             size="large">
+        </div>
       </div>
     </section>
 
