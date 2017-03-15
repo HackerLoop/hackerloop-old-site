@@ -75,6 +75,3 @@ DEPENDENCIES
   redcarpet
   sass (>= 3.3.0.rc.2)
   therubyracer
-
-BUNDLED WITH
-   1.13.6
